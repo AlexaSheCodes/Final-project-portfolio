@@ -6,6 +6,10 @@
 body {
   font-family: var(--heading-font-family);
 }
+.logo {
+  max-width: 150px;
+}
+
 h1,
 h2,
 h3,
@@ -24,12 +28,13 @@ p {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 150px 20px;
 }
 .hero p {
   font-size: 36px;
   color: white;
   margin: 0;
+  padding: 50px;
 }
 .hero h2 {
   font-weight: normal;
@@ -43,4 +48,13 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.sections {
+  color: var(--secondary-color);
+}
+.sections:hover {
+  color: #ffba00;
+}
+.active {
+  color: #ffba00;
 }
