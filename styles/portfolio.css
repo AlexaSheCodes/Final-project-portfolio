@@ -102,6 +102,20 @@ p {
   color: var(--heading-color);
   background-color: var(--branding-color);
 }
+.media h1 {
+  color: var(--branding-color);
+}
+.media h3 {
+  color: var(--secondary-color);
+}
+.media p,
+a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+.media a:hover {
+  color: var(--secondary-color);
+}
 footer {
   text-align: center;
   margin: 50px;
@@ -136,5 +150,8 @@ footer {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .media {
+    text-align: center;
   }
 }
