@@ -108,6 +108,9 @@ p {
 .media h3 {
   color: var(--secondary-color);
 }
+.media h3:hover {
+  color: var(--heading-color);
+}
 .media p,
 a {
   color: var(--branding-color);
