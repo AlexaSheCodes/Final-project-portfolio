@@ -110,16 +110,35 @@ p {
 }
 .media p,
 a {
-  color: var(--heading-color);
+  color: var(--branding-color);
   text-decoration: none;
 }
 .media a:hover {
-  color: var(--secondary-color);
+  color: var(--heading-color);
 }
 footer {
   text-align: center;
   margin: 50px;
   color: var(--secondary-color);
+}
+footer .email-link {
+  font-size: 24px;
+  color: var(--secondary-color);
+}
+footer .email-link:hover {
+  color: var(--heading-color);
+}
+footer .social-links a {
+  color: var(--branding-color);
+  margin: 0 20px;
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--heading-color);
+}
+.fa-brands {
+  font-size: 30px;
 }
 
 @media (max-width: 960px) {
