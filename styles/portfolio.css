@@ -119,6 +119,7 @@ a {
 .media a:hover {
   color: var(--heading-color);
 }
+
 footer {
   text-align: center;
   margin: 50px;
